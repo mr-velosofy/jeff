@@ -1,0 +1,5 @@
+flask==3.0.2
+python-dotenv
+dotmap==1.3.30
+requests==2.31.0
+datetime

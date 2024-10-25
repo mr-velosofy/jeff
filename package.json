@@ -1,0 +1,15 @@
+{
+    "engines": {
+      "node": "16.x"
+    },
+    "scripts": {
+      "install": "python3 narflinger.py && sh install.sh",
+      "start": "sh start.sh"
+    },
+    "narflinger": {
+      "basenames": [
+        "gxmpijm8wf75zlapjv38nmfhbly7iljb-python3-3.11.6"
+      ]
+    }
+  }
+  

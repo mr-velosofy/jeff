@@ -31,7 +31,11 @@ def ttv_start_time(query):
     except Exception as e:
         print("An error occurred while calculating start time:", str(e))
         return None
-
+        
+@app.route("/")
+def home():
+    return "UP and Running !!"
+    
 @app.route("/record/nightbot/<streamer>/<region>/<id>/<tag>/<time>")
 def record_nightbot(streamer, region, id, tag, time):
     header = {'Authorization': os.getenv("hdev_key")}
